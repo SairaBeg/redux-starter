@@ -12,14 +12,14 @@ import { compose, pipe } from "lodash/fp";
 
 // let numbers = [1, 2, 3];
 
-// console.log(numbers.map((number) => number * 2));
-const input = "  JSbenis  ";
-const trim = (str) => str.trim();
-const wrapInDiv = (str) => `<div>${str}</div>`;
-const toLowerCase = (str) => str.toLowerCase();
+// // console.log(numbers.map((number) => number * 2));
+// const input = "  JSbenis  ";
+// const trim = (str) => str.trim();
+// const wrapInDiv = (str) => `<div>${str}</div>`;
+// const toLowerCase = (str) => str.toLowerCase();
 
-const transform = pipe(trim, toLowerCase, wrapInDiv);
-const result = transform(input);
+// const transform = pipe(trim, toLowerCase, wrapInDiv);
+// const result = transform(input);
 
-// const result = wrapInDiv(toLowerCase(trim(input)));
-console.log(result);
+// // const result = wrapInDiv(toLowerCase(trim(input)));
+// console.log(result);
