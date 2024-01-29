@@ -43,14 +43,14 @@ import { produce } from "immer";
 // console.log(added);
 // console.log(removed);
 // console.log(mapped);
-let book = { title: "Harry Potter" };
+// let book = { title: "Harry Potter" };
 
-function publish(book) {
-  return produce(book, (draftBook) => {
-    draftBook.isPublished = true;
-  });
-}
+// function publish(book) {
+//   return produce(book, (draftBook) => {
+//     draftBook.isPublished = true;
+//   });
+// }
 
-const newBook = publish(book);
-console.log(book);
-console.log(newBook);
+// const newBook = publish(book);
+// console.log(book);
+// console.log(newBook);
